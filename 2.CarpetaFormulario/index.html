@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DonComponentes/Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="window-notice" id="window-notice">
+        <div class="content">
+            <h2>Formulario de Usuario</h2>
+                <form action="formulario.txt" method="post">
+                    
+                    Nombre:  
+                    <input name="nombre" type="text" value="" size="50" maxlength="50" class="centrarse">
+                    <br>
+
+                    Apellidos:
+                    <input name="apellidos" type="text" value="" size="50" maxlength="50" class="centrarse">
+                    <br>
+
+                    Edad:
+                    <input name="edad" type="text" value="" size="50" maxlength="50" class="centrarse">
+                    <br>
+
+                    Dirección:
+                    <input name="direccion" type="text" value="" size="50" maxlength="50" class="centrarse">
+                    <br>
+
+                    <input type="submit" value="Enviar">
+                    <input type="reset">
+                    
+                    <input type="button" value="Página anterior" onclick="history.go(-1);">
+                    <!--<a href="javascript: history.go(-1)">
+                        <button>Volver</button>
+                    </a>-->
+
+                </form>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
